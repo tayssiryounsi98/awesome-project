@@ -50,7 +50,7 @@ const CartePays = ({ data }) => {
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
-          <IconButton aria-label="add to favorites" onClick={addToFavorite(data)}>
+          <IconButton aria-label="add to favorites">
             <FavoriteIcon />
           </IconButton>
         </CardActions>
