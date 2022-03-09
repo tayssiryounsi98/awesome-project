@@ -1,22 +1,19 @@
-import React,{useContext} from 'react';
-import {GlobalContext} from '../context/GlobalState';
-import { styled } from '@mui/material/styles';
+import React from 'react';
+//import {GlobalContext} from '../context/GlobalState';
+//import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
+
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
-import Collapse from '@mui/material/Collapse';
-import Avatar from '@mui/material/Avatar';
+
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { red } from '@mui/material/colors';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
-import './cartePays.css';
 
+import FavoriteIcon from '@mui/icons-material/Favorite';
+
+import './cartePays.css';
+/*
 const ExpandMore = styled((props) => {
     const { expand, ...other } = props;
     return <IconButton {...other} />;
@@ -27,15 +24,15 @@ const ExpandMore = styled((props) => {
       duration: theme.transitions.duration.shortest,
     }),
   }));
-  
+  */
 const CartePays = ({ data }) => {
-    const [expanded, setExpanded] = React.useState(false);
-    const {addToFavorite,favoris}=useContext(GlobalContext)
-  
+    //const [expanded, setExpanded] = React.useState(false);
+    // const {addToFavorite,favoris}=useContext(GlobalContext)
+  /*
     const handleExpandClick = () => {
       setExpanded(!expanded);
     };
-    
+    */
     return (
       <Card className="item" sx={{ maxWidth: 345 }}>
         <CardMedia
