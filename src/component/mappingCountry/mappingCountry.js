@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, Text, View } from "react-native";
+//import { StyleSheet, Text, View } from "react-native";
 import { CartePays } from '../CartePays';
 import './mappingCountry.css';
 import axios from "axios";

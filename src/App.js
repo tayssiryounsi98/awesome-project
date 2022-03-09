@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import { MappingCountry } from './component/mappingCountry';
 import { NavbarCountry } from './component/navbarCountry';

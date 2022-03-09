@@ -2,8 +2,8 @@ import React,{useContext} from 'react'
 
 import { GlobalContext } from '../context/GlobalState'
 
-import { MappingCountry } from '../mappingCountry';
-import { NavbarCountry } from '../navbarCountry';
+//import { MappingCountry } from '../mappingCountry';
+//import { NavbarCountry } from '../navbarCountry';
 import { CartePays } from '../CartePays';
 import { Container } from 'react-bootstrap';
 
